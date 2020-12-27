@@ -1,0 +1,34 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class PcComponent extends Component {
+
+	private String interfaceName;
+	private int watt;
+
+	public PcComponent(String partname, BigDecimal partprice, int partrating, String interfaceName,int watt ) {
+		super(partname, partprice, partrating);
+		this.interfaceName = interfaceName;
+		this.watt = watt;
+
+	}
+
+	public String getInterfaceName() {
+		return interfaceName;
+	}
+
+	public void setInterfaceName(String interfaceName) {
+		this.interfaceName = interfaceName;
+	}
+
+	public int getWatt() {
+		return watt;
+	}
+
+	public void setWatt(int watt) {
+		this.watt = watt;
+	}
+
+	
+}

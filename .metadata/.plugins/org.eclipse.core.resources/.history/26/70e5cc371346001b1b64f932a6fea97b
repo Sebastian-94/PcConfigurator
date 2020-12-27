@@ -1,0 +1,24 @@
+package builder;
+import java.math.BigDecimal;
+
+public class TaxMan {
+
+	private PcComponent motherboard;
+	private PcComponent hardDisc;
+	private PcComponent cpu;
+	private PcComponent gpu;
+	private PcComponent ssd;
+	private PcComponent ramMemory;
+	private PcComponent pcCase;
+
+	double taxRate;
+
+	public BigDecimal generateRetailprice() {
+		this.taxRate = taxRate;
+		taxRate = 1.19;
+
+		return (motherboard.getPartprice().add(hardDisc.getPartprice()).add(cpu.getPartprice()).add(gpu.getPartprice())
+				.add(ssd.getPartprice()).add(pcCase.getPartprice()).add(ramMemory.getPartprice())) * taxRate;
+	}
+
+}

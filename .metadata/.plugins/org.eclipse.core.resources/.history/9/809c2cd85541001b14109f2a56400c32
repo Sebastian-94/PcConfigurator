@@ -1,0 +1,12 @@
+package Builder;
+
+import java.math.BigDecimal;
+
+public class Component {
+
+	// Money --> BigDecimal
+	private String partname;
+	private BigDecimal partprice;
+	private int partrating;
+
+}

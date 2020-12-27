@@ -1,0 +1,15 @@
+package builder;
+
+public class TaxMan {
+
+	double taxRate = 1.19;
+
+	public double getTaxRate() {
+		return taxRate;
+	}
+
+	public void setTaxRate(double taxRate) {
+		this.taxRate = taxRate;
+	}
+
+}

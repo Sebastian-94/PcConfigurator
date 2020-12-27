@@ -1,0 +1,24 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class PcPower extends Component {
+	
+	private int watt;
+
+	public PcPower(String partName, BigDecimal partPrice, int partRating, int watt) {
+		super(partName, partPrice, partRating);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+	public int getWatt() {
+		return watt;
+	}
+
+	public void setWatt(int watt) {
+		this.watt = watt;
+	}
+
+ }

@@ -1,0 +1,79 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class Pc {
+
+	private PCComponent motherboard;
+	private PCComponent hardDisc;
+	private PCComponent cpu;
+	private PCComponent gpu;
+	private PCComponent ssd;
+	private PCComponent ramMemory;
+
+	public Pc(PCComponent motherboard, PCComponent hardDisc, PCComponent cpu, PCComponent gpu, PCComponent ssd,
+			PCComponent ramMemory) {
+		super();
+		this.motherboard = motherboard;
+		this.hardDisc = hardDisc;
+		this.cpu = cpu;
+		this.gpu = gpu;
+		this.ssd = ssd;
+		this.ramMemory = ramMemory;
+	}
+
+	public PCComponent getMotherboard() {
+		return motherboard;
+	}
+
+	public void setMotherboard(PCComponent motherboard) {
+		this.motherboard = motherboard;
+	}
+
+	public PCComponent getHardDisc() {
+		return hardDisc;
+	}
+
+	public void setHardDisc(PCComponent hardDisc) {
+		this.hardDisc = hardDisc;
+	}
+
+	public PCComponent getCpu() {
+		return cpu;
+	}
+
+	public void setCpu(PCComponent cpu) {
+		this.cpu = cpu;
+	}
+
+	public PCComponent getGpu() {
+		return gpu;
+	}
+
+	public void setGpu(PCComponent gpu) {
+		this.gpu = gpu;
+	}
+
+	public PCComponent getSsd() {
+		return ssd;
+	}
+
+	public void setSsd(PCComponent ssd) {
+		this.ssd = ssd;
+	}
+
+	public PCComponent getRamMemory() {
+		return ramMemory;
+	}
+
+	public void setRamMemory(PCComponent ramMemory) {
+		this.ramMemory = ramMemory;
+	}
+
+	public BigDecimal calculatePrice() {
+		// add prices
+		return motherboard.getPartprice().add(hardDisc.getPartprice());
+
+	}
+
+}

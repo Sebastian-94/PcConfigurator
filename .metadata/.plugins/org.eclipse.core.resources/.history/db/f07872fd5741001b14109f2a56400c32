@@ -1,0 +1,12 @@
+package Builder;
+
+public class PC {
+	private int pcPrice;
+	private int numberComponents;
+
+	public int pcPriceGenerator(int price) {
+		this.price = pcPrice;
+		pcPrice = price(GPU) + price(CPU);
+		return pcPrice;
+	}
+}

@@ -1,0 +1,12 @@
+package Builder;
+
+public class PC {
+
+	private PCComponent motherboard;
+	private PCComponent hardDisc;
+	private PCComponent cpu;
+	private PCComponent gpu;
+	private PCComponent ssd;
+	private PCComponent ramMemory;
+
+}

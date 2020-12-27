@@ -1,0 +1,12 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class PcPower extends Component {
+
+	public PcPower(String partName, BigDecimal partPrice, int partRating) {
+		super(partName, partPrice, partRating);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,5 @@
+package builder;
+
+public class TaxMan2 extends Pc {
+
+}

@@ -1,0 +1,19 @@
+package builder;
+
+public class TaxMan {
+	
+	double salePrice;
+	double taxRate;
+		
+		public double generateRetailprice() {
+		 this.taxRate = taxRate; 
+		 this.salePrice = salePrice; 
+	
+		
+		    return salePrice;
+		  }
+		
+		
+	
+
+}

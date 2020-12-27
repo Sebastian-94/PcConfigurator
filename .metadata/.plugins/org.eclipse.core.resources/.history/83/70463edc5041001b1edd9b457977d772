@@ -1,0 +1,24 @@
+package Builder;
+
+public class Component {
+
+	String partname;
+	int partprice;
+	int partrating;
+
+	public PCComponent extends Component (String partname, int partprice, int partrating) { 
+		
+		boolean premiumpart; 
+	
+	}
+
+
+	public static void main(String[] args) {
+		PCComponent CPU = new PCComponent(I5, 279, 5);
+		PCComponent GPU = new PCComponent(RTX2070, 399, 6);
+		PCComponent RAM = new PCComponent(ASUSRAM, 99, 4);
+		PCComponent CASE = new PCComponent(COOLCASE, 59, 4);
+		pCComponent MAINBOARD = new PCComponent(XMAINBOARD, 159, 4);
+	}
+
+}

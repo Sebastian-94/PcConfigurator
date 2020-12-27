@@ -1,0 +1,60 @@
+package Builder;
+
+public class PC {
+
+	private PCComponent motherboard;
+	private PCComponent hardDisc;
+	private PCComponent cpu;
+	private PCComponent gpu;
+	private PCComponent ssd;
+	private PCComponent ramMemory;
+
+	public PCComponent getMotherboard() {
+		return motherboard;
+	}
+
+	public void setMotherboard(PCComponent motherboard) {
+		this.motherboard = motherboard;
+	}
+
+	public PCComponent getHardDisc() {
+		return hardDisc;
+	}
+
+	public void setHardDisc(PCComponent hardDisc) {
+		this.hardDisc = hardDisc;
+	}
+
+	public PCComponent getCpu() {
+		return cpu;
+	}
+
+	public void setCpu(PCComponent cpu) {
+		this.cpu = cpu;
+	}
+
+	public PCComponent getGpu() {
+		return gpu;
+	}
+
+	public void setGpu(PCComponent gpu) {
+		this.gpu = gpu;
+	}
+
+	public PCComponent getSsd() {
+		return ssd;
+	}
+
+	public void setSsd(PCComponent ssd) {
+		this.ssd = ssd;
+	}
+
+	public PCComponent getRamMemory() {
+		return ramMemory;
+	}
+
+	public void setRamMemory(PCComponent ramMemory) {
+		this.ramMemory = ramMemory;
+	}
+
+}

@@ -1,0 +1,17 @@
+package Main;
+
+import java.math.BigDecimal;
+
+import Builder.PCComponent;
+
+public class Main {
+	public static void main(String[] args) {
+
+		PCComponent cpu = new PCComponent("I5", new BigDecimal(279), 5, "Socket 1122");
+		PCComponent gpu = new PCComponent("RTX2070", new BigDecimal(399), 6, "pci-e");
+		PCComponent ramMemory = new PCComponent("ASUSRAM", new BigDecimal(99), 4, "pci-e2");
+		PCComponent CASE = new PCComponent("COOLCASE", 59, 4);
+		pCComponent MAINBOARD = new PCComponent("XMAINBOARD", 159, 4);
+	}
+
+}

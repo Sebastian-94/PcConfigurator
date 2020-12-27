@@ -1,0 +1,15 @@
+package Builder;
+
+public class Component {
+
+	private String partname;
+	private int partprice;
+	private int partrating;
+
+	public PCComponent extends Component (String partname, int partprice, int partrating) { 
+		
+		boolean premiumpart; 
+	
+	}
+
+}

@@ -1,0 +1,14 @@
+package Builder;
+
+import java.math.BigDecimal;
+
+public class PCComponent extends Component {
+
+	private String interfaceName;
+
+	public PCComponent(String partname, BigDecimal partprice, int partrating, String interfaceName) {
+		super(partname, partprice, partrating);
+		this.interfaceName = interfaceName;
+
+	}
+}

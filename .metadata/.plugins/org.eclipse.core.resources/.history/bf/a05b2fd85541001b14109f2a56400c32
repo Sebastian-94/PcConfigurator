@@ -1,0 +1,40 @@
+package Builder;
+
+import java.math.BigDecimal;
+
+public class Component {
+
+	// Money --> BigDecimal
+	private String partname;
+	private BigDecimal partprice;
+	private int partrating;
+	public Component(String partname, BigDecimal partprice, int partrating) {
+		super();
+		this.partname = partname;
+		this.partprice = partprice;
+		this.partrating = partrating;
+	}
+	public String getPartname() {
+		return partname;
+	}
+	public void setPartname(String partname) {
+		this.partname = partname;
+	}
+	public BigDecimal getPartprice() {
+		return partprice;
+	}
+	public void setPartprice(BigDecimal partprice) {
+		this.partprice = partprice;
+	}
+	public int getPartrating() {
+		return partrating;
+	}
+	public void setPartrating(int partrating) {
+		this.partrating = partrating;
+	}
+
+	
+	
+	
+	
+}

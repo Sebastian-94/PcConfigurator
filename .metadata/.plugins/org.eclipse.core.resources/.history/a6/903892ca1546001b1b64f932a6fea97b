@@ -1,0 +1,90 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class TaxMan {
+
+	private PcComponent motherboard;
+	private PcComponent hardDisc;
+	private PcComponent cpu;
+	private PcComponent gpu;
+	private PcComponent ssd;
+	private PcComponent ramMemory;
+	private PcComponent pcCase;
+
+	double taxRate;
+
+	public PcComponent getMotherboard() {
+		return motherboard;
+	}
+
+	public void setMotherboard(PcComponent motherboard) {
+		this.motherboard = motherboard;
+	}
+
+	public PcComponent getHardDisc() {
+		return hardDisc;
+	}
+
+	public void setHardDisc(PcComponent hardDisc) {
+		this.hardDisc = hardDisc;
+	}
+
+	public PcComponent getCpu() {
+		return cpu;
+	}
+
+	public void setCpu(PcComponent cpu) {
+		this.cpu = cpu;
+	}
+
+	public PcComponent getGpu() {
+		return gpu;
+	}
+
+	public void setGpu(PcComponent gpu) {
+		this.gpu = gpu;
+	}
+
+	public PcComponent getSsd() {
+		return ssd;
+	}
+
+	public void setSsd(PcComponent ssd) {
+		this.ssd = ssd;
+	}
+
+	public PcComponent getRamMemory() {
+		return ramMemory;
+	}
+
+	public void setRamMemory(PcComponent ramMemory) {
+		this.ramMemory = ramMemory;
+	}
+
+	public PcComponent getPcCase() {
+		return pcCase;
+	}
+
+	public void setPcCase(PcComponent pcCase) {
+		this.pcCase = pcCase;
+	}
+
+	public double getTaxRate() {
+		return taxRate;
+	}
+
+	public void setTaxRate(double taxRate) {
+		this.taxRate = taxRate;
+	}
+
+	public BigDecimal generateRetailprice() {
+
+		taxRate = 1.19;
+
+		return (motherboard.getPartprice().add(hardDisc.getPartprice()).add(cpu.getPartprice()).add(gpu.getPartprice())
+				.add(ssd.getPartprice()).add(pcCase.getPartprice()).add(ramMemory.getPartprice()))
+						.multiply(BigDecimal.valueOf(taxRate));
+	}
+
+}

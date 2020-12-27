@@ -1,0 +1,17 @@
+package Builder;
+
+public class TaxMan {
+
+	public static void main(String[] args) {
+		
+		
+		public int taxGenerator(price){
+			
+			this.price = price; 
+		price = price * 1.19; 
+		return price;
+	}	
+
+	}
+
+}

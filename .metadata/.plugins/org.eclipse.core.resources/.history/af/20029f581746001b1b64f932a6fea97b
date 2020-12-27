@@ -1,0 +1,33 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public class TaxMan {
+	
+	// what are these?
+	private PcComponent motherboard;
+	private PcComponent hardDisc;
+	private PcComponent cpu;
+	private PcComponent gpu;
+	private PcComponent ssd;
+	private PcComponent ramMemory;
+	private PcComponent pcCase;
+
+	double taxRate = 1.19;
+
+	public double getTaxRate() {
+		return taxRate;
+	}
+
+	public void setTaxRate(double taxRate) {
+		this.taxRate = taxRate;
+	}
+
+	// How to add Taxrate from other Class?
+	public BigDecimal generateRetailPrice() {
+
+		return (motherboard.getPartprice().add(hardDisc.getPartprice()).add(cpu.getPartprice()).add(gpu.getPartprice())
+				.add(ssd.getPartprice()).add(pcCase.getPartprice()).add(ramMemory.getPartprice()))
+						.multiply(BigDecimal.valueOf(taxRate));
+	}
+}

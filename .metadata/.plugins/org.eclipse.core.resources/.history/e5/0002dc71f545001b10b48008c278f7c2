@@ -1,0 +1,26 @@
+package main;
+
+import java.math.BigDecimal;
+
+import builder.PC;
+import builder.PCComponent;
+
+public class Main {
+	public static void main(String[] args) {
+
+		PCComponent cpu = new PCComponent("I5", new BigDecimal(279), 5, "Socket 1122");
+		PCComponent gpu = new PCComponent("RTX2070", new BigDecimal(399), 6, "pci-e");
+		PCComponent ramMemory = new PCComponent("ASUSRAM", new BigDecimal(99), 4, "pci-e2");
+		PCComponent hardDisc = new PCComponent("baracuda", new BigDecimal(79), 4, "sata");
+		PCComponent ssd = new PCComponent("corsair", new BigDecimal(150), 4, "sata");
+		PCComponent motherBoard = new PCComponent("asus", new BigDecimal(150), 4, "standard");
+		PC myNewComputer = new PC(motherBoard, hardDisc, cpu, gpu, ssd, ramMemory);
+		System.out.println("The total price of all components is " + myNewComputer.calculatePrice());
+	}
+
+}
+
+// 1) Fix all camelcase mistakes.
+// 2) Add TaxRate, add TaxRate before returning the finalprice
+// 3) New Classes --> extend each component with power consumption in Watts. At the end we can add total consumption, to check powercunsumption unit
+// 4) add prices

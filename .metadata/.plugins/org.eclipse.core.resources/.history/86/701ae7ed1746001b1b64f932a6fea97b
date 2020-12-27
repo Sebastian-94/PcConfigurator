@@ -1,0 +1,29 @@
+package builder;
+
+import java.math.BigDecimal;
+
+public interface Methods {
+	
+
+
+	public BigDecimal calculatePrice() {
+		// add prices
+
+		return motherboard.getPartprice().add(hardDisc.getPartprice()).add(cpu.getPartprice()).add(gpu.getPartprice())
+				.add(ssd.getPartprice()).add(pcCase.getPartprice()).add(ramMemory.getPartprice());
+
+	}
+
+	public BigDecimal calculateWatts() {
+
+		return motherboard.getWatt().add(hardDisc.getWatt()).add(cpu.getWatt()).add(gpu.getWatt()).add(ssd.getWatt())
+				.add(pcCase.getWatt()).add(ramMemory.getWatt());
+	}
+
+	public BigDecimal generateRetailPrice() {
+
+		return (motherboard.getPartprice().add(hardDisc.getPartprice()).add(cpu.getPartprice()).add(gpu.getPartprice())
+				.add(ssd.getPartprice()).add(pcCase.getPartprice()).add(ramMemory.getPartprice()))
+						.multiply(BigDecimal.valueOf(taxRate));
+	}
+}

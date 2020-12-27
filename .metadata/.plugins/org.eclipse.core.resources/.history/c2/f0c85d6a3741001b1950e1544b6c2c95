@@ -1,0 +1,13 @@
+package Builder;
+
+public static void main(String[]args){
+
+public class PC {
+	int pcprice;
+
+	public int pcPriceGenerator() { 
+		this.price = price; 
+		pcprice = price(GPU)+price(CPU);
+		return pcprice;
+			}
+	}

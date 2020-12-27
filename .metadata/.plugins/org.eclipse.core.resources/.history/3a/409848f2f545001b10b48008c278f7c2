@@ -1,0 +1,8 @@
+package builder;
+
+public class PcWatt {
+	
+	private int watt;
+	
+
+}

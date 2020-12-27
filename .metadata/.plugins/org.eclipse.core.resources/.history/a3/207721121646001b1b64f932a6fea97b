@@ -1,0 +1,32 @@
+package main;
+
+import java.math.BigDecimal;
+
+import builder.Pc;
+import builder.PcComponent;
+
+public class Main {
+	public static void main(String[] args) {
+
+		PcComponent cpu = new PcComponent("I5", new BigDecimal(279), 5, "Socket 1122", new BigDecimal(150));
+		PcComponent gpu = new PcComponent("RTX2070", new BigDecimal(399), 6, "pci-e", new BigDecimal(250));
+		PcComponent ramMemory = new PcComponent("ASUSRAM", new BigDecimal(99), 4, "pci-e2", new BigDecimal(30));
+		PcComponent hardDisc = new PcComponent("baracuda", new BigDecimal(79), 4, "sata", new BigDecimal(40));
+		PcComponent ssd = new PcComponent("corsair", new BigDecimal(150), 4, "sata", new BigDecimal(20));
+		PcComponent motherBoard = new PcComponent("asus", new BigDecimal(150), 4, "standard", new BigDecimal(50));
+		PcComponent pcCase = new PcComponent("BeQuiet", new BigDecimal(79), 5, "ATX", new BigDecimal(0));
+		
+		Pc myNewComputer = new Pc(motherBoard, hardDisc, cpu, gpu, ssd, ramMemory, pcCase);
+		
+		System.out.println("The total net price of all components is " + myNewComputer.calculatePrice() + " €");
+		System.out.println("The final Ratail price of your PC is " + myNewComputer.generateRetailPrice() + " €");
+		System.out.println("The total power consumption of your PC is " + myNewComputer.calculateWatts() + " Watts");
+
+	}
+
+}
+
+// 1) Fix all camelcase mistakes.
+// 2) Add TaxRate, add TaxRate before returning the finalprice
+// 3) New Classes --> extend each component with power consumption in Watts. At the end we can add total consumption, to check powercunsumption unit
+// 4) add prices
