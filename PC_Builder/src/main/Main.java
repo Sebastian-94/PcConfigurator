@@ -4,10 +4,16 @@ package main;
 import java.math.BigDecimal;
 import java.util.List;
 
-import builder.CpuList;
 import builder.Pc;
 import builder.PcComponent;
 import builder.TaxMan;
+import fileImports.CaseList;
+import fileImports.CpuList;
+import fileImports.GpuList;
+import fileImports.HardDriveList;
+import fileImports.MainBoardList;
+import fileImports.PsuList;
+import fileImports.RamList;
 
 public class Main {
 	public static void main(String[] args) {
@@ -36,6 +42,38 @@ public class Main {
 			System.out.println(comp);
 		}
 
+		List<PcComponent> gpuList = GpuList.readGpuFromFile();
+		// for loop that goes through all objects
+		for (PcComponent compg : gpuList) {
+			System.out.println(compg);
+		}
+
+		List<PcComponent> ramList = RamList.readRamFromFile();
+		// for loop that goes through all objects
+		for (PcComponent compr : ramList) {
+			System.out.println(compr);
+		}
+		List<PcComponent> caseList = CaseList.readCaseFromFile();
+		// for loop that goes through all objects
+		for (PcComponent compc : caseList) {
+			System.out.println(compc);
+		}
+		List<PcComponent> hardDriveList = HardDriveList.readHardDriveFromFile();
+		// for loop that goes through all objects
+		for (PcComponent comph : hardDriveList) {
+			System.out.println(comph);
+
+		}
+		List<PcComponent> psuList = PsuList.readPsuFromFile();
+		// for loop that goes through all objects
+		for (PcComponent compp : psuList) {
+			System.out.println(compp);
+		}
+		List<PcComponent> mainBoardList = MainBoardList.readMainBoardFromFile();
+		// for loop that goes through all objects
+		for (PcComponent compm : mainBoardList) {
+			System.out.println(compm);
+		}
 	}
 
 }
@@ -50,5 +88,6 @@ public class Main {
 // 2) install AGE2 --> Download.
 // 3) install apache Maven --> Database driver connects to the database. 
 
-// From where can methods be used? 
-// How to exactly use interfaces?
+// Homework3: 
+// new class with the name interface. one variable in the class --> Name (PCIe, etc., ) and optional speed, attributes, etc
+// finalize the other components in JavaFx

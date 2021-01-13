@@ -12,7 +12,6 @@ public class Pc {
 	public PcComponent ssd;
 	public PcComponent ramMemory;
 	public PcComponent pcCase;
-	// double taxRate = 1.19;
 
 	// constructor?
 	public Pc(PcComponent motherBoard, PcComponent hardDisc, PcComponent cpu, PcComponent gpu, PcComponent ssd,
