@@ -14,6 +14,11 @@ public class PcComponent extends Component {
 
 	}
 
+	public PcComponent(String partname, BigDecimal partprice, int partrating, BigDecimal watt) {
+		super(partname, partprice, partrating);
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getInterfaceName() {
 		return interfaceName;
 	}

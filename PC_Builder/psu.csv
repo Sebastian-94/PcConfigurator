@@ -1,0 +1,46 @@
+name;watts;price;rating;interfacename
+Kolink Continuum;1050;120;7;ATX
+Kolink Continuum;1200;140;8;ATX
+Kolink Continuum;1500;150;9;ATX
+be Quiet! Pure Power 11;300;40;2;ATX
+be Quiet! Pure Power 11;350;50;3;ATX
+be Quiet! Pure Power 11;400;60;4;ATX
+be Quiet! Pure Power 11;500;70;5;ATX
+be Quiet! Pure Power 11;600;80;6;ATX
+be Quiet! Pure Power 11;700;90;7;ATX
+Corsair CX;430;40;4;mATX
+Corsair CX;450;50;5;mATX
+Corsair CX;500;60;5;mATX
+Corsair CX;550;65;5;mATX
+Corsair CX;600;70;6;mATX
+Corsair CX;650;80;7;mATX
+Corsair CX;750;90;7;mATX
+Fractal Design Newton R3;600;60;6;ATX
+Fractal Design Newton R3;800;80;8;ATX
+Fractal Design Newton R3;1000;100;4;ATX
+Fractal Design Edison M;450;50;4;ATX
+Fractal Design Edison M;550;60;3;ATX
+Fractal Design Edison M;650;70;5;ATX
+Fractal Design Edison M;750;80;6;ATX
+Fractal Design Tesla R2;650;80;7;ATX
+Fractal Design Tesla R2;1000;105;8;ATX
+XFX XTR Series;550;50;6;ATX
+XFX XTR Series;650;60;7;ATX
+XFX XTR Series;750;70;7;ATX
+XFX XTR Series;850;75;8;ATX
+XFX XTR Series;1050;110;8;ATX
+XFX XTR Series;1250;120;9;ATX
+XFX TS Series Gold;550;30;6;mATX
+XFX TS Series Gold;650;50;6;mATX
+XFX TS Series Gold;750;60;6;mATX
+Gigabyte XP1200M;1200;110;7;mATX
+Antec EDGE;550;40;5;ATX
+Antec EDGE;650;50;6;ATX
+Antec EDGE;750;66;7;ATX
+Antec TruePower Classic;550;50;5;ATX
+Antec TruePower Classic;650;60;6;ATX
+Antec TruePower Classic;750;85;7;ATX
+Rosewill Fortress;450;30;4;ATX
+Rosewill Fortress;550;50;5;ATX
+Rosewill Fortress;650;60;6;ATX
+Rosewill Fortress;750;80;7;ATX

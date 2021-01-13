@@ -1,0 +1,27 @@
+name;watts;price;rating;interfacename (harddisc);interfacename (size);interfacename (PCIe);interfacename (socket);interfacename (ram)
+Asus A58M-K AM2+ Socket AMD A58 Chipset Motherboard;20;149;5;sata;ATX;PCIe 4.0;LGA 1200;ddr4
+Asus Micro-ATX B85M-G Motherboard;25;155;5;sata;ATX;PCIe 4.0;LGA 1200;ddr4
+Asus Micro-ATX B85M-G Motherboard;20;159;5;sata;mATX;PCIe 4.0;LGA 1200;ddr4
+Asus B85M-K - LGA1150 Socket MotherBoard;25;179;5;sata;ATX;PCIe 4.0;LGA 1200;ddr4
+Asus H97-Plus ASUS LGA1150 Socket motherBoard;30;171;5;sata;ATX;PCIe 4.0;LGA 1200;ddr4
+ASUS X99-DELUXE LGA 2011-v3 Intel X99 SATA 6Gb/s USB 3.0 ATX Intel Motherboard;25;134;5;sata;ATX;PCIe 4.0;LGA 1200;ddr4
+Asus M5A78L-MLX3 for AM3+ Socket AMD MotherBoard Max. 16GB, DDR3 1866;20;156;5;m.2;ATX;PCIe 4.0;LGA 1150;ddr4
+Asus X99-Pro ATX X99 Motherboard DDR4 LGA2011-v3 Socket;15;178;5;sata;ATX;PCIe 4.0;LGA 1151;ddr4
+ASUS P9X79-E WS (WorkStation) LGA2011 Scoket Intel X79 SSI CEB DDR3 Motherboard - DDR3 2400(OC)/2133(OC);20;165;5;sata;ATX;PCIe 4.0;LGA 1151;ddr4
+ASUS Z97-A Motherboard (Black);25;167;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+Asus X99-A ATX X99 Motherboard DDR4 3000 LGA2011-v3;20;189;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+Asus MAXIMUS VII Formula - Z97 chipset LGA1150 Socket MotherBoard;25;168;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+H97M-E ASUS LGA1150 Socket MotherBoard;30;162;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+Z97-A ASUS LGA1150 Socket Motherboard;25;133;5;m.2;ATX;PCIe 3.0;LGA 1151;ddr4
+Asus M5A78L-M/USB3 Motherboard;20;200;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+Asus H61M-CS - H61 Express Chipset LGA1155 Socket MotherBoard for 3rd/2nd Generation;15;220;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+ASUS Z97-DELUXE ATX DDR3 2600 LGA 1150 Motherboards Z97-DELUXE;20;170;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+ASUS H81M-CS LGA-1150 Motherboard;25;199;5;sata;ATX;PCIe 3.0;LGA 1151;ddr4
+Asus X99-E WS Workstation X99 Chipset Motherboard (Intel X99, DDR4, S-ATA 600, CEB, 1 x M.2, Quad Strength Graphic Power, Socket 2011-v3);20;157;5;sata;ATX;PCIe 3.0;LGA 1150;ddr4
+Asus RAMPAGE V EXTREME, Extended ATX x99 Motherboard , LGA 2011-V3 Socket, DDR4 3300Mhz+(OC) - Personal Computer;25;199;5;sata;ATX;PCIe 3.0;LGA 1150;ddr4
+H97-Pro ASUS LGA1150 Socket MotherBoard;30;229;5;m.2;ATX;PCIe 3.0;LGA 1150;ddr4
+Gigabyte B07JBX52TM Motherboard. Rs. 29676.;25;189;5;sata;ATX;PCIe 3.0;LGA 1150;ddr4
+Gigabyte GA-A320M-S2H Motherboard. Rs. 4899.;20;135;5;sata;ATX;PCIe 3.0;LGA 1150;ddr4
+Gigabyte H310M-H Motherboard. Rs. 7000.;15;129;5;sata;ATX;PCIe 3.0;LGA 1150;ddr3
+Gigabyte AZB07GPDJ9R6 Motherboard. Rs. 20171.;35;89;5;sata;ATX;PCIe 3.0;LGA 1150;ddr3
+Gigabyte B360M_Gaming_HD_Intel_LGA Motherboard. Rs. 9800.;20;79;5;sata;mATX;PCIe 3.0;LGA 1150;ddr3

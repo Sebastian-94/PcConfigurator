@@ -1,0 +1,35 @@
+name;watts;price;rating;interfacename
+Samsung SSD 860 Pro (512 GB) ;15;80;6;sata
+Samsung SSD 850 Evo (500 GB);15;89;6;sata
+Crucial MX500 (480 GB);15;80;5;sata
+Crucial BX500 (480 GB);15;70;5;sata
+Kingston SSDNow UV500 (480 GB) ;15;70;6;sata
+Samsung 860 EVO 500GB;15;90;5;sata
+WD Black 1TB;15;50;5;sata
+Seagate FireCuda SSHD 500GB;15;60;5;sata
+Seagate FireCuda Gaming 500GB;15;60;5;sata
+Seagate BarraCuda Hard drive 500GB;15;50;6;sata
+WD Blue 2TB;15;60;6;sata
+Toshiba P300 2TB;15;60;7;sata
+Adata XPG SX8200 Pro. 2TB;10;67;8;m.2
+Samsung 970 EVO Plus. 500GB;10;110;8;m.2
+WD Black SN750. 2TB;10;120;8;m.2
+Corsair Force MP600. 2TB;10;290;9;m.2
+Seagate FireCuda 520GB;10;140;8;m.2
+Samsung SSD 860 Pro (256 GB) ;15;50;3;sata
+Samsung SSD 850 Evo (250 GB);15;59;4;sata
+Crucial MX500 (240 GB);15;50;4;sata
+Crucial BX500 (240 GB);15;40;4;sata
+Kingston SSDNow UV500 (240 GB) ;15;40;3;sata
+Samsung 860 EVO 120GB;15;60;3;sata
+WD Black 1TB;15;20;4;sata
+Seagate FireCuda SSHD 250GB;15;30;4;sata
+Seagate FireCuda Gaming250GB;15;30;4;sata
+Seagate BarraCuda Hard drive 1TB;15;20;3;sata
+WD Blue 1TB;15;30;4;sata
+Toshiba P300 1TB;15;30;5;sata
+Adata XPG SX8200 Pro. 1TB;10;37;6;m.2
+Samsung 970 EVO Plus. 120 GB;10;80;6;m.2
+WD Black SN750. 1TB;10;90;7;m.2
+Corsair Force MP600. 1TB;10;260;6;m.2
+Seagate FireCuda 240GB;10;110;7;m.2
